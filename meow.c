@@ -4,7 +4,7 @@ int main (void)
 {
     int i = 0 ;
 
-    while (i<31)
+    while (i<5)
     {
         printf("meow.\n");
         i++;
