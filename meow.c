@@ -2,11 +2,8 @@
 
 int main (void)
 {
-    int i = 0 ;
-
-    while (i<5)
+    for( int i = 0 ; i < 4 ; i++)
     {
         printf("meow.\n");
-        i++;
     }
 }
