@@ -4,9 +4,11 @@
 
 int main (void)
 {
-    int s ;
 
-     do
+    int s ;
+    
+
+    do
     {
         s = get_int("get size : ");
     }
