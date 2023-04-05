@@ -6,18 +6,19 @@ int main()
 {
 
     int s;
-    if(s<9){
-
-    do
+    if("s<9")
     {
-        s = get_int("get size : ");
+
+
+    {
+       printf(" s = get_int("get size : ") ");
     }
-    while (" s < 9 ");
+
     }
     else{
 
     int e = get_int("ending size : ");
 
     }
-    
+
 }
