@@ -10,7 +10,7 @@ int main (void)
     {
         s = get_int("get size : ");
     }
-    while ("s < 9");
+    while (" s < 9 ");
 
 
     int e = get_int("ending size : ");
