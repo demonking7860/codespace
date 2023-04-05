@@ -20,12 +20,13 @@ int main()
     while (e<s);
 
     int year = 0 ;
-    do
+
+    while(s<e)
     {
         s = s + (s/3) - (s/4) ;
         year ++ ;
     }
-    while(s<e);
+
 
     printf("YEARS: %i \n ",year );
 
