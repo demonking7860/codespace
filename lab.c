@@ -8,7 +8,7 @@ int main (void)
 
      do
     {
-        s = get_int("staring size");
+        s = get_int("get size");
     }
     while ("s < 9");
 
