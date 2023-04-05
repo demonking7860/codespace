@@ -6,7 +6,7 @@ int main (void)
 {
 
     int s ;
-    if(s>9){
+    if(s<9){
 
     do
     {
