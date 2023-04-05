@@ -19,5 +19,5 @@ int main()
     int e = get_int("ending size : ");
 
     }
-    return 0;
+    
 }
