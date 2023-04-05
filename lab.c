@@ -18,8 +18,9 @@ int main()
         e = get_int("ending size : ");
     }
     while (e<s);
-    int i = s ;
 
-   for(int j = s + s/3-s/4 ; j<=200 ; j)
+    int i = s + s/3 - s/4 ;
+
+   for(int j = s ; j<=e ; j++i)
 
 }
