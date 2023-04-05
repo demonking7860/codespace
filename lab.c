@@ -21,6 +21,6 @@ int main()
 
     int i = s + s/3 - s/4 ;
 
-   for(int j = s ; j<=e ; j++i)
+   for (int j = s ; j<=e ; j++)
 
 }
