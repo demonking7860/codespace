@@ -19,8 +19,6 @@ int main()
     }
     while (e<s);
 
-    int i = s + s/3 - s/4 ;
-
-   for (int j = s ; j<=e ; j++)
+    
 
 }
