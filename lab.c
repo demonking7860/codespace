@@ -12,6 +12,8 @@ int main()
     }
     while (s<9);
 
+    else(int e = get_int("ending size : "));
+
 
     }
 
