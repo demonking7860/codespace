@@ -9,6 +9,8 @@ int main (void)
 
     int e = get_int("ending size");
 
+    int s;
+
      do
     {
         s = get_int("staring size");
