@@ -19,6 +19,13 @@ int main()
     }
     while (e<s);
 
-    
+    int year ;
+    do
+    {
+        s = s + (s/3) - (s/4) ;
+    }
+    while(s<e);
+
+
 
 }
