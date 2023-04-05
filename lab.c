@@ -12,7 +12,11 @@ int main()
     }
     while (s<9);
 
-    int e = get_int("ending size : ");
+    int e ;
+    do
+    {
+        e = get_int("ending size : ");
+    }
+    while (e<s);
 
- }
-
+}
