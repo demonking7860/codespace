@@ -18,6 +18,6 @@ int main()
         e = get_int("ending size : ");
     }
     while (e<s);
-
+    int i = s ;
 
 }
