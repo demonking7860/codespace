@@ -4,8 +4,8 @@
 
 int main (void)
 {
-    int s = get_int("starting size : ");
-    
+    int s ;
+
      do
     {
         s = get_int("get size : ");
