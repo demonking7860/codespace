@@ -10,10 +10,9 @@ int main()
     {
         s = get_int("starting size: ");
     }
-    while (s<=9);
+    while (s<9);
 
     int e = get_int("ending size : ");
 
-
-    }
+ }
 
