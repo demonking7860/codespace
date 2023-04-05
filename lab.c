@@ -19,6 +19,4 @@ int main()
     }
     while (e<s);
 
-    
-
 }
