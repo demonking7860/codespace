@@ -20,4 +20,6 @@ int main()
     while (e<s);
     int i = s ;
 
+   for(int j = s + s/3-s/4 ; j<=200 ; j)
+
 }
