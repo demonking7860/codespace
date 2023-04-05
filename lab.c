@@ -2,10 +2,10 @@
 
 #include<cs50.h>
 
-int main (void)
+int main()
 {
 
-    int s ;
+    int s;
     if(s<9){
 
     do
