@@ -4,7 +4,7 @@
 int main(void)
 {
     // prompt the user for input
-    int h 
+    int h;
 
     while( 8 <= h  )
     {
