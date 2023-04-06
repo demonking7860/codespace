@@ -10,10 +10,10 @@ int main(void)
     {
         h = get_int("height: ");
     }
-    while( 8 <= h  );
+    while( 8 <= h <=1 );
     do
     {
         h = get_int("height:");
     }
-    while(h<=1);
+    while(h);
 }
