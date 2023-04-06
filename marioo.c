@@ -6,7 +6,7 @@ int main(void)
     // prompt the user for input
     int h = get_int("height: ");
 
-    while( 1 <= h <= 8)
+    while( 1 < h < 8)
     {
         h = get_int("height: ");
     }
