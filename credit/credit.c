@@ -8,7 +8,7 @@ int main(void)
 
     do
     {
-        apex
+        printf("INVALID");
     }
     while()
 }
