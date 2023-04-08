@@ -10,5 +10,5 @@ int main(void)
     {
         printf("INVALID\n");
     }
-    while(Number < 340000000000000 || Number > 359999999999999 );
+    while(apex < 340000000000000 || apex > 359999999999999 );
 }
