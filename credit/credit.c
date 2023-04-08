@@ -10,5 +10,5 @@ int main(void)
     {
         printf("INVALID");
     }
-    while()
+    while(NUMBER)
 }
