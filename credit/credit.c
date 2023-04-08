@@ -4,11 +4,11 @@
 int main(void)
 {
 
-    long apex = get_long("Number : ")
+    long apex = get_long("Number : ");
 
     do
     {
-        printf("INVALID");
+        printf("INVALID\n");
     }
-    while(NUMBER)
+    while(Number < 340000000000000 || Number > 359999999999999 );
 }
