@@ -15,7 +15,7 @@ int main(void)
 
     tip_percent = (tip_percent/(bill_amount+tax_percent)) * 100 ;
 
-    total = ( bill_amount + tax_percent + tip_percent )/2;
+    total = ( bill_amount + tax_percent + tip_percent )/2 ;
 
     printf("You will owe $%.2f each!\n", total );
 }
