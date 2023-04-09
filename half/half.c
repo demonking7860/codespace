@@ -21,9 +21,3 @@ int main(void)
 
     printf("You will owe $%.2f each!\n", total );
 }
-
-// TODO: Complete the function
-float half(float bill, float tax, int tip)
-{
-    return 0.0;
-}
