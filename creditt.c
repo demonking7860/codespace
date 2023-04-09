@@ -3,7 +3,11 @@
 
 int main(void)
 {
-    
+    long credit = get_long ( Numbers :);
+    do
+    {
+        long
+    }
 }
 
 
