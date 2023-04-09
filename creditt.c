@@ -5,10 +5,11 @@ int main(void)
 {
     long credit = get_long (" Numbers :");
 
-    if( credit <= 0)
+    do
     {
         credit = get_long (" Numbers :");
     }
+    while( credit <= 0);
 
 
 }
