@@ -15,9 +15,11 @@ int main(void)
     do
     {
         credit=(credit%10);
-        pos ++ ; 
+        pos ++ ;
     }
     while( (credit%10 != 0 ));
+
+    printf(" %i , pos");
 
 
 
