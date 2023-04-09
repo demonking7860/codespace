@@ -15,8 +15,9 @@ int main(void)
     do
     {
         credit=(credit%10);
+        pos ++ ; 
     }
-    while( )
+    while( (credit%10 != 0 ));
 
 
 
