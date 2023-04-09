@@ -16,10 +16,11 @@ int main(void)
     {
         credit=(credit%10);
         pos ++ ;
+         printf(" pos");
     }
     while( (credit%10 != 0 ));
 
-    printf(" pos");
+
 
 
 
