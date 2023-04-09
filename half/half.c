@@ -13,7 +13,10 @@ int main(void)
     int tip_percent = get_int("Tip percent: ");
 
     tax_percent = (tax_percent/bill_amount) * 100 ;
+
     tip_percent = (tip_percent/(bill_amount+tax_percent)) * 100 ;
+
+    
 
     printf("You will owe $%.2f each!\n", half(bill_amount, tax_percent, tip_percent));
 }
