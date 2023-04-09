@@ -4,6 +4,7 @@
 int main(void)
 {
     long credit = get_long (" Numbers :");
+    int pos = 0 ;
 
     do
     {
@@ -11,7 +12,13 @@ int main(void)
     }
     while( credit <= 0);
 
-    
+    do
+    {
+        credit=(credit%10);
+    }
+    while( )
+
+
 
 
 }
