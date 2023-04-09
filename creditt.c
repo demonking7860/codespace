@@ -19,7 +19,7 @@ int main(void)
     }
     while( (credit%10 != 0 ));
 
-    printf(" pos\n");
+    printf(" pos");
 
 
 
