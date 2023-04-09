@@ -3,11 +3,14 @@
 
 int main(void)
 {
-    long credit = get_long ( Numbers :);
-    do
+    long credit = get_long (" Numbers :");
+
+    if( credit <= 0)
     {
-        long
+        credit = get_long (" Numbers :");
     }
+
+
 }
 
 
