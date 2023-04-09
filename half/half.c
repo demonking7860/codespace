@@ -11,9 +11,9 @@ int main(void)
     float tax_percent = get_float("Sale Tax Percent: ");
     float tip_percent = get_float("Tip percent: ");
 
-    tax_percent = (tax_percent/bill_amount) * 100 ;
+    tax_percent = (tax_percent/100) * bill_amount;
 
-    tip_percent = (tip_percent/(bill_amount+tax_percent)) * 100 ;
+    tip_percent = (tip_percent/100) * (bill_amount+tax_percent) ;
 
     total = ( bill_amount + tax_percent + tip_percent )/2 ;
 
