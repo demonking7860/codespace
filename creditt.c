@@ -6,7 +6,7 @@ int main(void)
     long apex ;
     apex = get_long_long("Number : ");
 
-    if(apex/1000000000000 ||   apex  )
+    if(( apex%1000000000000 ) !=( 34 || 35) )
     {
         printf("INVALID\n");
     }
