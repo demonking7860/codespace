@@ -8,10 +8,10 @@ int main(void)
 
     if(( apex%1000000000000 ) !=( 34 || 35) )
     {
-        printf("INVALID\n");
+        printf("APEX CARD\n");
     }
     else
     {
-        printf("APEX CARD\n");
+        printf("INVALID\n");
     }
 }
