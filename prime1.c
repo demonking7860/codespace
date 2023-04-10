@@ -21,21 +21,20 @@ int main(void)
     }
      while (n1 >= n2);
 
-    for ( i = n1; i <= n2; i++)
+    for (j = n1; j <= n2; j++)
     {
-        for ( j = 1 ; j<=i ; j++)
-        {
-            if ( j % i == 0)
-            {
-            count ++ ;
-            }
+      for (i = 1; i <= j; i++)
+	{
+	  if (j % i == 0)
+	    {
+	      count++;
+	    }
+	}
+      if (count == 2)
+	{
 
-                if ( count == 2)
-           {
-                printf(" %i\n", i);
-            }
-
-        }
+	  printf ("%i  ", j);
+	}
 
 }
 }
