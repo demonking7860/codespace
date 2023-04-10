@@ -35,6 +35,7 @@ int main(void)
 
 	  printf ("%i  ", j);
 	}
+  count =0;
 
 }
 }
