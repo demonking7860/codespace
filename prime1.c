@@ -4,9 +4,9 @@
 int main(void)
 {
 
-    int i ;
+    int i = 0 ;
     int count = 0 ;
-    int j ;
+    int j = 0;
     int n1;
     do
     {
