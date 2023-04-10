@@ -33,7 +33,7 @@ int main(void)
       if (count == 2)
 	{
 
-	  printf ("%i  ", j);
+	  printf ("%i\n ", j);
 	}
   count =0;
 
