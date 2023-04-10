@@ -23,10 +23,10 @@ int main(void)
     for ( n = min; n <= max; n++)
     {
         if ( n%i == 0)
-        
+
         {
             printf("%i\n", n);
-            i++ ;
+            
         }
     }
 }
