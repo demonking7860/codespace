@@ -4,29 +4,30 @@
 int main(void)
 {
 
-    int i = 0;
-    int n ;
-    int min;
+    int i ;
+    int j ;
+    int n1;
     do
     {
-        min = get_int("Minimum: ");
+        n1 = get_int("Minimum: ");
     }
-    while (min < 1);
+    while (n1 < 1);
 
-    int max;
+    int n2;
     do
     {
-        max = get_int("Maximum: ");
+        n2 = get_int("Maximum: ");
     }
-     while (min >= max);
+     while (n1 >= n2);
 
-    for ( n = min; n <= max; n++)
+    for ( i = n1; n <= n2; n++)
     {
-        if ( n%i == 0)
+        for ( n1)
+        if (  == 0)
 
         {
             printf("%i\n", n);
-            
+
         }
     }
 }
