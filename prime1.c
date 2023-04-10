@@ -7,7 +7,7 @@ int main(void)
     int i ;
     int count = 0 ;
     int j ;
-    int n1;
+    int n1;n2
     do
     {
         n1 = get_int("Minimum: ");
@@ -21,9 +21,9 @@ int main(void)
     }
      while (n1 >= n2);
 
-    for ( i = n1; i <= n1; i++)
+    for ( i = n1; i <= n2; i++)
     {
-        for ( j = 1 , j<=i , j++);
+        for ( j = 1 ; j<=i ; j++)
         {
             if ( j % i == 0)
             {
@@ -31,16 +31,11 @@ int main(void)
             }
             {
                 if ( count == 2)
-                printf(" %i , i")
+                printf(" %i\n", i);
             }
 
         }
 
-
-        {
-            printf("%i\n", n);
-
-        }
-    }
+}
 }
 
