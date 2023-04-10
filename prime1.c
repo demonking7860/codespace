@@ -20,9 +20,10 @@ int main(void)
     }
      while (n1 >= n2);
 
-    for ( i = n1; n <= n2; n++)
+    for ( i = n1; i <= n1; i++)
     {
-        for ( n1)
+        for ( )
+
         if (  == 0)
 
         {
