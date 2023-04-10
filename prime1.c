@@ -5,6 +5,7 @@ int main(void)
 {
 
     int i = 0;
+    int n ;
     int min;
     do
     {
@@ -19,7 +20,7 @@ int main(void)
     }
      while (min >= max);
 
-    for (int n = min; n <= max; n++)
+    for ( n = min; n <= max; n++)
     {
         if ( n%i == 0)
         {
@@ -29,8 +30,3 @@ int main(void)
     }
 }
 
-bool prime(int number)
-{
-    // TODO
-    return false;
-}
