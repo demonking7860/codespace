@@ -5,6 +5,7 @@ int main(void)
 {
 
     int i ;
+    int count = 0 ;
     int j ;
     int n1;
     do
@@ -22,9 +23,19 @@ int main(void)
 
     for ( i = n1; i <= n1; i++)
     {
-        for ( )
+        for ( j = 1 , j<=i , j++);
+        {
+            if ( j % i == 0)
+            {
+            count ++ ;
+            }
+            {
+                if ( count == 2)
+                printf(" %i , i")
+            }
 
-        if (  == 0)
+        }
+
 
         {
             printf("%i\n", n);
