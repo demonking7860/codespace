@@ -16,9 +16,9 @@ int main(void)
     do
     {
         max = get_int("Maximum: ");
-    } 
-    while (min >= max);
-    
+    }
+    while (max >= min);
+
     for (int i = min; i <= max; i++)
     {
         if (prime(i))
