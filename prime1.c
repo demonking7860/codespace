@@ -7,7 +7,7 @@ int main(void)
     int i ;
     int count = 0 ;
     int j ;
-    int n1;n2
+    int n1;
     do
     {
         n1 = get_int("Minimum: ");
