@@ -3,6 +3,8 @@
 
 int main(void)
 {
+
+    int i = 0;
     int min;
     do
     {
@@ -22,6 +24,7 @@ int main(void)
         if ( n%i == 0)
         {
             printf("%i\n", n);
+            i++ ;
         }
     }
 }
