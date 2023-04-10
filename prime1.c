@@ -29,8 +29,9 @@ int main(void)
             {
             count ++ ;
             }
-            {
+
                 if ( count == 2)
+           {
                 printf(" %i\n", i);
             }
 
