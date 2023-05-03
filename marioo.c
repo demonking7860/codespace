@@ -25,6 +25,19 @@ int main(void)
         printf("#");
 
       }
+      for( int i = 1 ; i<=h ; i++)
+    {
+
+     for (int j = 2 ; j<=h+1-i;j++)
+    {
+        printf(" ");
+
+      }
+
+      for(int k = 1 ; k<=i;k++)
+      {
+        printf("#");
+      }
 
 
       printf("\n");
