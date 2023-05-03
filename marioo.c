@@ -25,19 +25,7 @@ int main(void)
         printf("#");
 
       }
-      for( int l = 1 ; l<=h ; l++)
-    {
 
-     for (int m = 2 ; m<=h+1-l;m++)
-    {
-        printf(" ");
-
-      }
-
-      for(int n = 1 ; n<=l;n++)
-      {
-        printf("#");
-      }
 
 
       printf("\n");
@@ -46,6 +34,6 @@ int main(void)
 
 
 
-}
+
 }
 
