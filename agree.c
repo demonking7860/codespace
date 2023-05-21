@@ -17,4 +17,5 @@ int main (void)
     {
         printf("no idea.\n");
     }
+
 }
