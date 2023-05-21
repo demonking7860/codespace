@@ -4,9 +4,9 @@
 int main (void)
 {
 
-char a=1,b=3,c=3,d=2;
+int a=1,b=3,c=3,d=2;
 
-char points[]={a,b,c,d};
+int points[]={a,b,c,d};
 
 string = get_string(player1);
 
