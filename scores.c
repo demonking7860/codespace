@@ -17,6 +17,7 @@ string player1 = get_string("word: ");
     printf("%i\n", n);
     for(int m=0, m<=n,m++)
     {
-        
+        sum=0;
+        sum=sum + points[m] ;
     }
 }
