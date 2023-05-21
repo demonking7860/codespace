@@ -4,10 +4,11 @@
 int main (void)
 {
 
-char a=1,s=2,d=3;
+char a=1,b=3,c=3,d=2;
 
-int arr[]={1,2,3};
+char points[]={a,b,c,d};
 
-char brr[]={a,s,d};
+string = get_string(player1);
+
 
 }
