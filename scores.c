@@ -15,7 +15,7 @@ string player1 = get_string("word: ");
     {
         n++;
     }
-    
+
     for(int m=0; m<=n; m++)
     {
        sum=sum + points[m] ;
