@@ -15,5 +15,8 @@ string player1 = get_string("word: ");
         n++;
     }
     printf("%i\n", n);
-    for(int m=0, m<=n)
+    for(int m=0, m<=n,m++)
+    {
+        
+    }
 }
