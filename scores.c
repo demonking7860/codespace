@@ -10,14 +10,16 @@ char points[]={a,b,c,d};
 string player1 = get_string("word: ");
 
  int n = 0;
+ int sum=0;
     while (player1[n] != '\0')
     {
         n++;
     }
     printf("%i\n", n);
-    for(int m=0, m<n,m++)
+    for(int m=0; m<=n; m++)
     {
-        sum=0;
-        sum=sum + points[m] ;
+       sum=sum + points[m] ;
+
     }
+    printf("the output is %i\n",sum);
 }
