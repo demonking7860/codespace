@@ -10,5 +10,4 @@ int arr[]={1,2,3};
 
 char brr[]={a,s,d};
 
-int arr[]=char brr[] ;
 }
